@@ -1,0 +1,32 @@
+---
+---
+{
+    "results": {
+        "articles": {
+            "name": "Article",
+            "results": [
+                {% for article in site.articles %}
+                {
+                    "title": {{ article.title | jsonify }},
+                    "url": "{{ article.url }}",
+                    "description": {{ article.description | jsonify }},
+                    "content": {{ article.content | strip_html | jsonify }}
+                }{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+        },
+        "files": {
+            "name": "File",
+            "results": [
+                {% for file in site.files %}
+                {
+                    "title": {{ file.title | jsonify }},
+                    "url": "{{ file.url }}",
+                    "description": {{ file.description | jsonify }},
+                    "content": {{ file.content | strip_html | jsonify }}
+                }{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+        }
+    }
+}

@@ -1,0 +1,83 @@
+---
+layout: default
+---
+    <div class="pageHeader">
+        <h1>{{ site.title }}</h1>
+    </div>
+		
+            <div class="siteIntro">
+            {{ content }}
+        </div>
+	
+	
+	<div class="ui info message">
+  <i class="close icon"></i>
+  <div class="header">
+    Who, uh... designed this website?
+  </div>
+  <p>That would be me.  To state the obvious - I'm not a web developer or web designer.  I was able to get this card view working using <a href="http://semantic-ui.com/">Semantic-ui</a> with low overhead (both time and expense).  But now its time to improve.  I'm currently looking at flat-file CMS systems for this website: Kirby, Jekyll, Grav, etc.  I'm contacting different developers about this but if you have skills in flat-file CMS, please send me an email at <a href="mailto:daniel@newleafdata.com?subject=Flat File CMS for FMIR">daniel@newleafdata.com</a>.
+</div>
+	
+	
+
+<div class="ui segment">        
+        <h2>Articles</h2>
+        <div class="ui four stackable cards">
+            
+    {% for article in site.articles %}
+            <div class="card">
+                <div class="content">
+                    <div class="header">{% if article.collectiontitle %}{{ article.collectiontitle }}{% else %}{{ article.title }}{% endif %}</div>
+                    <div class="description">{{ article.description }}</div>
+                </div>                    
+                    <a class="ui bottom attached blue button" type="button" href="{{ article.url }}">
+                        <i class="caret right icon"></i>
+                        Read More
+                    </a>
+            </div>
+    {% endfor %}
+        </div>
+</div>	
+	<!-- end Articles -->
+		
+<div class="ui segment">		
+		<h2>Files</h2>
+        <div class="ui four stackable cards">
+            
+    {% for file in site.files %}
+            <div class="card">
+                <div class="content">
+                    <div class="header">{% if file.collectiontitle %}{{ file.collectiontitle }}{% else %}{{ file.title }}{% endif %}</div>
+                    <div class="description">{{ file.description }}</div>
+                </div>                    
+                    <a class="ui bottom attached orange button" type="button" href="{{ file.url }}">
+                        <i class="caret right icon"></i>
+                        Read More
+                    </a>
+            </div>
+    {% endfor %}
+            
+            
+	</div>
+</div>
+		<!-- end Files -->
+		
+<!-- Add to email list -->
+<div class="ui segment">
+	<h2>Keep me updated</h2>
+	<p>Keep updated on new articles, videos, and files by joining the newsletter list.  Your emails are never shared.</p>
+    
+    {% include article_form.html id="70084317707" %}
+</div>
+		
+		
+<!-- Can You Write About... -->
+<div class="ui segment">        
+        <h2>Can you write about...</h2>
+        
+        <p>Do you have requests for future articles?  Fill out the form and I'll do my best to address the issue in an upcoming article.</p>	
+	
+<form class="ui form" action="https://app.hatchbuck.com/onlineForm/submit.php" method="post" name="form_63080653653" accept-charset="utf-8"><input type="hidden" name="formID" value="63080653653"><input type="hidden" name="enableServerValidation" value="1"><input type="hidden" name="enable303Redirect" value="1"><label for="input_6"> First Name </label> <input type="text" id="input_6" name="q6_firstName6" size="51"> <label for="input_7"> Last Name </label> <input type="text" id="input_7" name="q7_lastName7" size="51"> <label for="input_5"> Article Suggestion </label> <input type="text" id="input_5" name="q5_articleSuggestion" size="251"> <label for="input_4"> E-mail<span>*</span> </label> <input type="email" id="input_4" name="q4_email" size="51">  <div><button class="ui button" type="submit" style="white-space:nowrap;">Submit Form</button></div> <li style="display:none">Should be Empty: <input type="hidden" name="website" value=""></li><input type="hidden" id="simple_spc" name="simple_spc" value="63080653653-63080653653"></form>
+		
+</div>	
+
