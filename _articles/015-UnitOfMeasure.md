@@ -5,7 +5,7 @@ description: Understand the meaning of item quantities
 permalink: /Unit-of-Measure.html
 published: true
 ---
-git
+
 Everything we do with inventory is done with a quantity and a unit of measure.   The unit of measure might measure weight, length, area, volume, time, temperature, etc.
 
  If you’re currently not recording the unit of measure then you’re likely dealing with inventory on an individual basis with an implied unit of measure such as “each”.
