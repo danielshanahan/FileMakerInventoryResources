@@ -27,7 +27,7 @@ If everything moves in the same unit of measure - that is, everything is purchas
 ### Units of Measure Issues
 You may count your widgets as “each” but purchase them by the case.  This creates an issue.  Really, there are two issues here so let’s simplify this by changing the item from widget to cocoa powder (I’m drinking a glass of chocolate milk as I write this and felt inspired!).  
 
-**Issue 1 - Different Units of Measure**
+#### Issue 1 - Different Units of Measure
 Let’s say we count our cocoa powder in grams.  Our inventory count might look like this:
 
 On Hand: 100 grams
@@ -57,7 +57,7 @@ When the product is received and put away, another conversion occurs, changing 1
 | Kg       |  1              |   Grams	    |          1,000  |
 
 
-**Issue 2 - Generic Names**
+#### Issue 2 - Generic Names
 Converting a gram to a kilogram is pretty straight forward because it is clear what a gram is.  The same is true for kilograms, teaspoons, second, minutes, liters, gallons, etc.  However, not all units of measure are so clearly defined.  Let’s return to our widget.  We sell our widgets individually but we buy them by the case.  And let’s say there are 6 in the case.  So far, so good.  Our Unit of Measure conversion table would have the following rows:
 
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
@@ -79,7 +79,7 @@ Now the issue is not that each unit = 0.166 of a case.  Although 6*0.166 does no
 
 Now, when we go from each to case and case to each, which record are we going to use?  We need a way to distinguish the two sets of each/case.  We could do this a couple of ways:
 
-**Solution 1**
+#### Solution 1
 The relationship between item and unit of measure is a many-to-many relationship.  One item can have many units of measure (e.g. we sell it in grams and buy in kilograms).  And one unit of measure can belong to many items.  Many-to-many relationships are connected by a join table.
 
 (Note:  The term “join table” seems to be unique to FileMaker.  If you’re coming from another relational database background, you may know these tables as “associated table” or “junction table.”)
@@ -87,7 +87,7 @@ The relationship between item and unit of measure is a many-to-many relationship
 The data model would be:
 ITEM ——< ITEMUofM >——UofM
 
-**Solution 2**
+#### Solution 2
 If you’re not doing any reporting on the different units of measure - in other words, you don’t need to report on all the items that are sold in units of each, all the items that are sold in units of grams, etc. - then you could put the item ID in a column in the Units of Measure table:
 
 
