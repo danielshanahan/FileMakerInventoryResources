@@ -92,7 +92,7 @@ If you’re not doing any reporting on the different units of measure - in other
 
 
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |  ItemID               |
-|--------|--------|--------|--------|
+|--------|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      | 102 106 113   |
 | Case         |  1               |   Each	    |       6          | 102 106 113   |
 | Each         |  1               |   Case	    |      .125      | 16 23                |
