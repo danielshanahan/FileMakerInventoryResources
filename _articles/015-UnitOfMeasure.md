@@ -5,8 +5,7 @@ description: Understand the meaning of item quantities
 permalink: /Unit-of-Measure.html
 published: true
 ---
-
-# Unit of Measure
+git
 Everything we do with inventory is done with a quantity and a unit of measure.   The unit of measure might measure weight, length, area, volume, time, temperature, etc.
 
  If you’re currently not recording the unit of measure then you’re likely dealing with inventory on an individual basis with an implied unit of measure such as “each”.
@@ -40,11 +39,11 @@ We purchase the cocoa powder from our supplier in kilograms but we sell it in gr
 
 An example of a row in the Unit of Measure Conversion table might look like this:
 
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Grams       |  1              |   Kg	    |          .001  |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 
 In our example, we want to show that we have 1,000 grams on order.  We want to see that number in grams because it will help the sales people, especially if we’re out.  However, the purchase order line will have the unit in kilograms because that’s how our supplier sells it.  To get from 1,000 grams to kilograms, all we need to do is go to our reference Unit of Measure table, find grams and convert it by multiplying the value in Qty 2 field:
 
