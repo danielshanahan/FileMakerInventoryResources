@@ -3,6 +3,7 @@ layout: article
 title: Unit of Measure
 description: Creating a life cycle for your inventory
 permalink: /Unit-of-Measure.html
+published: true
 ---
 
 # Unit of Measure
