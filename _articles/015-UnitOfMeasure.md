@@ -3,7 +3,7 @@ layout: article
 title: Unit of Measure
 description: Understand the meaning of item quantities
 permalink: /Unit-of-Measure.html
-published: true
+published: false
 ---
 
 Everything we do with inventory is done with a quantity and a unit of measure.   The unit of measure might measure weight, length, area, volume, time, temperature, etc.
