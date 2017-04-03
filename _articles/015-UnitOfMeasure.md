@@ -1,3 +1,11 @@
+---
+layout: article
+collectiontitle: Unit of Measure
+title: Unit of Measure
+description: Units used for inventory items
+permalink: /UnitOfMeasure.html
+---
+
 # Unit of Measure
 Everything we do with inventory is done with a quantity and a unit of measure.   The unit of measure might measure weight, length, area, volume, time, temperature, etc.
 
