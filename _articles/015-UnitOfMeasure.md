@@ -43,44 +43,44 @@ An example of a row in the Unit of Measure Conversion table might look like this
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
 |--------|--------|--------|--------|
 | Grams       |  1              |   Kg	    |          .001  |
-|--------|--------|--------|--------|
+
 
 In our example, we want to show that we have 1,000 grams on order.  We want to see that number in grams because it will help the sales people, especially if we’re out.  However, the purchase order line will have the unit in kilograms because that’s how our supplier sells it.  To get from 1,000 grams to kilograms, all we need to do is go to our reference Unit of Measure table, find grams and convert it by multiplying the value in Qty 2 field:
 
 1,000 grams * .001 = 1 kilogram.
 
 When the product is received and put away, another conversion occurs, changing 1 kilogram into 1,000 grams.  Since a conversion is required back and forth, I like to have two entries for most units:
-|————————|————————|————————|————————|
+
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Grams       |  1              |   Kg	    |          .001  |
-|————————|————————|————————|————————|
-| Kg             |  1               |   Grams	    |       1,000  |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
+| Kg       |  1              |   Grams	    |          1,000  |
+
 
 **Issue 2 - Generic Names**
 Converting a gram to a kilogram is pretty straight forward because it is clear what a gram is.  The same is true for kilograms, teaspoons, second, minutes, liters, gallons, etc.  However, not all units of measure are so clearly defined.  Let’s return to our widget.  We sell our widgets individually but we buy them by the case.  And let’s say there are 6 in the case.  So far, so good.  Our Unit of Measure conversion table would have the following rows:
-|————————|————————|————————|————————|
+
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       6          |
-|————————|————————|————————|————————|
+
 
 Now the issue is not that each unit = 0.166 of a case.  Although 6*0.166 does not equal a whole number, we can easily get a whole number by using FileMaker’s Round () or Ceiling () functions.  No, this second issue has to do with the generic name of the unit of measure.  To illustrate, let’s say in addition to widgets we also sell whatsits.  Like widgets, we sell whatsits individually (each) but we buy them in a case.  However, for whatists, 8 come in a case.  Now our Unit of Measure table looks like this:
 
-|————————|————————|————————|————————|
+
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       6          |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .125      |
-|————————|————————|————————|————————|
+|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       8          |
-|————————|————————|————————|————————|
+
 
 Now, when we go from each to case and case to each, which record are we going to use?  We need a way to distinguish the two sets of each/case.  We could do this a couple of ways:
 
@@ -95,16 +95,16 @@ ITEM ——< ITEMUofM >——UofM
 **Solution 2**
 If you’re not doing any reporting on the different units of measure - in other words, you don’t need to report on all the items that are sold in units of each, all the items that are sold in units of grams, etc. - then you could put the item ID in a column in the Units of Measure table:
 
-|————————|————————|————————|————————|——————————-—|
+
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |  ItemID               |
-|————————|————————|————————|————————|————————————|
+|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      | 102, 106, 113   |
-|————————|————————|————————|————————|————————————|
+|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       6          | 102, 106, 113   |
-|————————|————————|————————|————————|————————————|
+|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .125      | 16, 23                |
-|————————|————————|————————|————————|————————————|
+|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       8          | 16, 23                 |
-|————————|————————|————————|————————|————————————|
+
 
 I recommend using the item’s primary key (ItemID here) rather than the item name or SKU as those may change.  (I know, I know, I know - you’re item names and SKUs never change.  I can only say that I’ve seen it enough times now that I only rely on the primary key to be immutable).
