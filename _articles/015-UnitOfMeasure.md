@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Unit of Measure
-description: Creating a life cycle for your inventory
+description: Understand the meaning of item quantities
 permalink: /Unit-of-Measure.html
 published: true
 ---
