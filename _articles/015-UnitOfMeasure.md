@@ -39,7 +39,7 @@ We purchase the cocoa powder from our supplier in kilograms but we sell it in gr
 
 An example of a row in the Unit of Measure Conversion table might look like this:
 
-|--------|--------|--------|--------|
+
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
 |--------|--------|--------|--------|
 | Grams       |  1              |   Kg	    |          .001  |
