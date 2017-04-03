@@ -93,10 +93,10 @@ If you’re not doing any reporting on the different units of measure - in other
 
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |  ItemID               |
 |--------|--------|--------|--------|
-| Each         |  1               |   Case	    |      .166      | 102\, 106\, 113   |
-| Case         |  1               |   Each	    |       6          | 102\, 106\, 113   |
-| Each         |  1               |   Case	    |      .125      | 16\, 23                |
-| Case         |  1               |   Each	    |       8          | 16\, 23                 |
+| Each         |  1               |   Case	    |      .166      | 102 106 113   |
+| Case         |  1               |   Each	    |       6          | 102 106 113   |
+| Each         |  1               |   Case	    |      .125      | 16 23                |
+| Case         |  1               |   Each	    |       8          | 16 23                 |
 
 
 I recommend using the item’s primary key (ItemID here) rather than the item name or SKU as those may change.  (I know, I know, I know - you’re item names and SKUs never change.  I can only say that I’ve seen it enough times now that I only rely on the primary key to be immutable).
