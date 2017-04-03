@@ -54,7 +54,6 @@ When the product is received and put away, another conversion occurs, changing 1
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
 |--------|--------|--------|--------|
 | Grams       |  1              |   Kg	    |          .001  |
-|--------|--------|--------|--------|
 | Kg       |  1              |   Grams	    |          1,000  |
 
 
@@ -64,7 +63,6 @@ Converting a gram to a kilogram is pretty straight forward because it is clear w
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
 |--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      |
-|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       6          |
 
 
@@ -74,11 +72,8 @@ Now the issue is not that each unit = 0.166 of a case.  Although 6*0.166 does no
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |
 |--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      |
-|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       6          |
-|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .125      |
-|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       8          |
 
 
@@ -99,11 +94,8 @@ If you’re not doing any reporting on the different units of measure - in other
 | UofM 1     | Qty 1        | UofM 2     | Qty 2        |  ItemID               |
 |--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .166      | 102, 106, 113   |
-|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       6          | 102, 106, 113   |
-|--------|--------|--------|--------|
 | Each         |  1               |   Case	    |      .125      | 16, 23                |
-|--------|--------|--------|--------|
 | Case         |  1               |   Each	    |       8          | 16, 23                 |
 
 
