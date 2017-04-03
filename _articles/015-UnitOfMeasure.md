@@ -15,10 +15,10 @@ There are a number of places where a unit of measure is used such as item quanti
 ### Implied Unit of Measure
 If you are not storing the unit of measure in your item table then the unit is implied.  Inventory quantities with an implied unit of measure might look something like this:
 
-On Hand: 100
-Allocated: 20
-Available: 80
-On Order: 1,000
+On Hand: 100<br/>
+Allocated: 20<br/>
+Available: 80<br/>
+On Order: 1,000<br/>
 
 Without a specified unit of measure the assumption is that the number is a single unit.  That might mean 100 each or 100 pairs or 100 boxes or 100 pallets.
 
