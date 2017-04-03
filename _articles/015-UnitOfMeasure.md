@@ -1,9 +1,8 @@
 ---
 layout: article
-collectiontitle: Unit of Measure
 title: Unit of Measure
-description: Units used for inventory items
-permalink: /UnitOfMeasure.html
+description: Creating a life cycle for your inventory
+permalink: /Unit-of-Measure.html
 ---
 
 # Unit of Measure
