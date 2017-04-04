@@ -1,11 +1,11 @@
-- - -
+---
 layout: article
 collectiontitle: FMP Inventory Starter Solutions
 title: FMP Inventory Starter Solutions
 description: Inventory Starter Solutions from FileMaker Pro v11-15.
 permalink: /FMP-inventory-starter-solutions.html
 published: true
-- - -
+---
 I was curious about the FileMaker Starter Solution for Inventory management in recent versions and I thought it would fun to create an article showing its evolution (at least from version 11 through 15).  I’m not going to comment on the solutions.  Rather, this is simply a place to see the item detail view in its different iterations.
 
 The screenshots are only in Mac, but of course, FileMaker also runs on Windows.
