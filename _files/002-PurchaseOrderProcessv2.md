@@ -13,4 +13,4 @@ This file is an updated version of the previous PO Process demo file. This file 
 * Loan Order
 * Transfer Order
 
-Please note that this file is for a desktop or laptop computer, Windows or Mac. It is not for a mobile device.
+*Please note that downloading a file from FileMaker Inventory Resources will automatically place you on the mailing list.  You will be notified when new articles or files are added.  You can unsubscribe at any time.*
