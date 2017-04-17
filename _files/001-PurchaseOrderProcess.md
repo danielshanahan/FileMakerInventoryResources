@@ -7,9 +7,9 @@ permalink: /Download_poProcess.html
 formid: 70185812027
 
 ---
-This file demonstrates one way to receive goods against a purchase order.  To download the file, fill out the form and a download link will be sent to your email.
+This file demonstrates one way to receive goods against a purchase order.
 
-*Please note that downloading a file from FileMaker Inventory Resources will automatically place you on the mailing list.  You will be notified when new articles or files are added.  You can unsubscribe at any time.*
+*The download link for this file is sent via email after submitting the "Updates and Downloads" form.  If you didn't receive that welcome email, please let me know at daniel@newleafdata.com*
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/7w20yKzoOiE">
