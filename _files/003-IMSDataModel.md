@@ -2,7 +2,7 @@
 layout: file
 collectiontitle: IMS Data Model
 title: PDF File - Data Model
-description: A PDF document of an Inventory Management System (IMS).
+description: A Data Model PDF document of an Inventory Management System (IMS).
 permalink: /Download_dataModelPDF.html
 formid: 70184251672
 ---
