@@ -11,6 +11,4 @@ formid: #
 
 There are times in an Inventory Management System that an item will need to be viewed in multiple units of measure.  One example is when an item is counted (or sold) in one unit but purchased in another. This demo file illustrates one approach to solving the multiple unit quandary.
 
-*Please note that downloading a file from FileMaker Inventory Resources will automatically place you on the mailing list.  You will be notified when new articles or files are added.  You can unsubscribe at any time.* 
-
-<iframe frameborder='0' style='width: 100%;' src='https://app.hatchbuck.com/OnlineForm/71001040686' scrolling='auto' onload='this.height=screen.height;'></iframe>
+*The download link for this file is sent via email after submitting the "Updates and Downloads" form.  If you didn't receive that welcome email, please let me know at daniel@newleafdata.com*
