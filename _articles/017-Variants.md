@@ -1,9 +1,10 @@
-- - - -
+---
 layout: article
 title: Variants
 description: Creating product variants in FileMaker Pro
 permalink: /Variants.html
-- - - -
+published: true
+---
 
 # Variants
 ![](../assets/images/Variants.png)
