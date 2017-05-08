@@ -115,7 +115,7 @@ Honestly, I’m not sure what to call this script.  It is not a searching script
 1. Go Deeper
 2. Create the new record
 
-Here is a GIF to help visualize what the script is doing.  The GIF only goes through a few iterations, not all 10,368!
+Here is a GIF to help visualize what the script is doing.  Each square represents an option.  The top row of squares represents Gender, the second row Brand, and so on.  The GIF only goes through a few iterations, not all 10,368!
 
 ![](../assets/images/Variants.gif)
 
