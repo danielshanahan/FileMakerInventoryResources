@@ -28,6 +28,3 @@ If you’ve signed up to be notified of new articles and downloads, then you sho
 If you have any questions, please contact me at daniel@newleafdata.com
 
 Thanks.
-
-
-#FMIR
