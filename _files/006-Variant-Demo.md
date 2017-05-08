@@ -1,12 +1,12 @@
-- - - -
+---
 layout: file
 collectiontitle: Variant-Demo
 title: Variant-Demo
 description: A demo file to support the Variant article.
 permalink: /Variant-Demo.html
-- - - -
+---
 # Variant
-![](Variant-Demo/fmp_variants.png)
+![](../assets/images/fmp_variants.png)
 
 
 This file demonstrates one way to create variants from a master product.  Create an item and mark the checkbox Has Variants.  In the Variant List field list all the variants in the following naming convention:
