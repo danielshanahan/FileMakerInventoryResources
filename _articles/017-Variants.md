@@ -6,7 +6,7 @@ permalink: /Variants.html
 - - - -
 
 # Variants
-![](../_assets/Variants.png)
+![](../assets/Variants.png)
 *Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY*
 
 Some products have multiple options.  The options can be a different color, size, etc.  Each instance of an option - for example, a large blue widget, a large green widget, a large yellow widget, etc. - is known as a variant.
