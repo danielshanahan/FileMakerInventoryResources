@@ -117,7 +117,7 @@ Honestly, I’m not sure what to call this script.  It is not a searching script
 
 Here is a GIF to help visualize what the script is doing.  The GIF only goes through a few iterations, not all 10,368!
 
-![](Variants/Variants.gif)
+![](../assets/images/Variants.gif)
 
 
 **Creating Script**
@@ -135,4 +135,3 @@ I put an SKU field in the table as well and had the script grab the first letter
 Variants are ways to offer options to a base product.  You can add those variant items to your FileMaker Inventory database and in fact, FileMaker can handled fairly large data sets for small and medium size businesses.  The accompanying demo is one approach to creating variants in FileMaker Pro.
 
 Good luck!
-#fmir
