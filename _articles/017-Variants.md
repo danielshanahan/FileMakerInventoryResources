@@ -52,8 +52,6 @@ Neck Cut: 2
 The total number of variants is the Rule of Product.  That is, the total number  of potential items we can sell is the product of all the attributes.  Note that “product” here is used in its mathematical sense and not as a synonym with “item”.  In our example, then, the total number of individual variants for a T-shirt is
 
 2x4x4x9x6x3x2
-or
-2*4*4*9*6*3*2
 =
 10,368
 
