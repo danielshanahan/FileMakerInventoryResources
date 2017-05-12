@@ -70,7 +70,7 @@ As previously mentioned, 10,368 may be an extreme example.  It may be that you n
 
 Manually creating 9 new records isn’t time consuming, but creating 10,368 new record is.  The accompanying demo automates the process of creating new variant records.
 
-Returning to stock inventory models, it may be that you do not create inventory until *after* you’ve sold it.  Once sold, the materials can be purchased and assembled (or simply purchased if you are a distributor).  This is a Make to Order or Push Inventory Model.  In that scenario, you may not want to create the 10,368 variant options.  Instead, you may chose to create the variant record as it is sold.
+Returning to stock inventory models, it may be that you do not create inventory until *after* you’ve sold it.  Once sold, the materials can be purchased and assembled (or simply purchased if you are a distributor).  This is a Make to Order or Pull Inventory Model.  In that scenario, you may not want to create the 10,368 variant options.  Instead, you may chose to create the variant record as it is sold.
 
 ## FileMaker Demo
 The variant demo file shows one way to create variant records.  The set up is deliberately simple.  The ITEM table has the following fields:
