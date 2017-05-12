@@ -31,23 +31,23 @@ A single product can have a list of attributes.  To illustrate, I’ll use the t
 ### Attributes Can Add Up
 Each of those attributes can have choices, which are displayed here as a set:
 
-Gender: {Female, Male}
-Brand: {Hanes, Fruit of the Loom, Jockey, Calvin Klein}
-Composite: { 100% Cotton, 80/20 Blend, 50/50 Blend, 20/20/60 Blend}
-Color: {Blue, Green, Red, White, Black, Yellow, Purple, Orange, Brown}
-Size: {X-Small, Small, Medium, Large, X-Large, XX-Large}
-Sleeve Length: {Short, Long, Tank}
-Neck Cut: {Crew, V}
+- Gender: {Female, Male}
+- Brand: {Hanes, Fruit of the Loom, Jockey, Calvin Klein}
+- Composite: { 100% Cotton, 80/20 Blend, 50/50 Blend, 20/20/60 Blend}
+- Color: {Blue, Green, Red, White, Black, Yellow, Purple, Orange, Brown}
+- Size: {X-Small, Small, Medium, Large, X-Large, XX-Large}
+- Sleeve Length: {Short, Long, Tank}
+- Neck Cut: {Crew, V}
 
 Here are the totals of the set:
 
-Gender: 2
-Brand: 4
-Composite: 4
-Color: 9
-Size: 6
-Sleeve Length: 3
-Neck Cut: 2
+- Gender: 2
+- Brand: 4
+- Composite: 4
+- Color: 9
+- Size: 6
+- Sleeve Length: 3
+- Neck Cut: 2
 
 The total number of variants is the Rule of Product.  That is, the total number  of potential items we can sell is the product of all the attributes.  Note that “product” here is used in its mathematical sense and not as a synonym with “item”.  In our example, then, the total number of individual variants for a T-shirt is
 
@@ -65,17 +65,12 @@ Now the fact that our example has 10,368 variants is not a problem for FileMaker
 Make to Stock - or Push Inventory Model - creates all the inventory, stores it, and then sells it.  First it’s made, then it’s sold.  If your organization operates on a Make to Stock Inventory Model, then you’ll need to make 10,368 new records in FileMaker.  Keep in mind that these records are all unique since they each have a unique combination of the available options.
 
 As previously mentioned, 10,368 may be an extreme example.  It may be that you never need to create more than 9 new variants; for example:
-Color: {Blue, Green, Red}
-Size: {Small, Medium, Large}
+- Color: {Blue, Green, Red}
+- Size: {Small, Medium, Large}
 
 Manually creating 9 new records isn’t time consuming, but creating 10,368 new record is.  The accompanying demo automates the process of creating new variant records.
 
 Returning to stock inventory models, it may be that you do not create inventory until *after* you’ve sold it.  Once sold, the materials can be purchased and assembled (or simply purchased if you are a distributor).  This is a Make to Order or Push Inventory Model.  In that scenario, you may not want to create the 10,368 variant options.  Instead, you may chose to create the variant record as it is sold.
-
-Extreme Example of Rule of Product
-	Master Product
-	Master Price/Cost
-	No Quantities
 
 ## FileMaker Demo
 The variant demo file shows one way to create variant records.  The set up is deliberately simple.  The ITEM table has the following fields:
