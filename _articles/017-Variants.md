@@ -17,7 +17,7 @@ I’ll divide this article into two parts:
 ## Variants by the Numbers - Rule of Product
 Each variant option is known as an attribute and there is no hard and fast rule as to how many attributes a variant might have.  Well, that’s not exactly true; off-the-shelf products usually have an attribute limit.  But in FileMaker, there needn’t be a limit, but I’m getting ahead of myself.
 
-**Attributes**
+### Attributes
 A single product can have a list of attributes.  To illustrate, I’ll use the tried and true example of shirts.  And to make the illustration a bit extreme, I’ll give the shirts a lot of attributes.  Before we can define the attributes of the shirt we need a “Master Product”.  Our Master Product will be intentionally generic in order to demonstrate attributes.   Our Master Product is a T-shirt.  Our T-shirt product can have the following attributes:
 
 Gender
@@ -28,7 +28,7 @@ Size
 Sleeve Length
 Neck Cut
 
-**Attributes Can Add Up**
+### Attributes Can Add Up
 Each of those attributes can have choices, which are displayed here as a set:
 
 Gender: {Female, Male}
@@ -55,7 +55,7 @@ The total number of variants is the Rule of Product.  That is, the total number 
 =
 10,368
 
-**Extreme Example Explained**
+### Extreme Example Explained
 This is admittedly an extreme example though not entirely unrealistic.  We could have just as easily named our Master Product as Hanes 100% Cotton Mens’ T-shirt which would have significantly reduced the attributes.  The point here is two-fold:
 
 1. How you determine your Master Product is up to you.
@@ -63,7 +63,7 @@ This is admittedly an extreme example though not entirely unrealistic.  We could
 
 Now the fact that our example has 10,368 variants is not a problem for FileMaker.  The FileMaker platform is robust enough to handle 100x that and more.  The issue is, do you need to create a record for all 10,368 variants?
 
-**Make to Stock vs Make to Order**
+### Make to Stock vs Make to Order
 Make to Stock - or Push Inventory Model - creates all the inventory, stores it, and then sells it.  First it’s made, then it’s sold.  If your organization operates on a Make to Stock Inventory Model, then you’ll need to make 10,368 new records in FileMaker.  Keep in mind that these records are all unique since they each have a unique combination of the available options.
 
 As previously mentioned, 10,368 may be an extreme example.  It may be that you never need to create more than 9 new variants; for example:
@@ -91,23 +91,23 @@ Variant Label: {Option 1, Option 2, Option 3, etc.}
 
 *The checkbox for the UI is a button.  The idea comes from Mark Scott’s excellent series on Button Bars ( [Fun with FileMaker Button Bars: Check Please – beezwax > blog](https://blog.beezwax.net/2016/04/28/fun-with-button-bars-check-please/)).
 
-**Master Item**
+### Master Item
 The Master Item is the product from which all other product variants are built.  The variant list is visible only on the Master Item and the attributes field is visible only on the variant items.  In the demo the Master Item also serves as the cost and price source.  This data is passed on to all the variant records.  Obviously, you’ll need to modify for your particular situation.  For example, if green dye is more expensive than any other color, your cost and price may vary from the Master Item.
 
 Item quantities are visible only for the variant records, not the Master Item.  The idea is that the Master Item is never sold.  Rather, it serves as the one item from which all other variants derive (it’s a bit of the [platonic idea of form and matter](https://en.wikipedia.org/wiki/Theory_of_Forms) ).
 
 The process of selecting a variant can be more involved, but I’ve chosen to keep it simple for the demo.  You might, for example, choose to create a table of potential variants and display them in a portal with a dropdown for the variant label.  The online inventory system, Odoo, does something similar to this: https://i.ytimg.com/vi/37hnxObMgmk/maxresdefault.jpg.
 
-**Scripts Overview**
+### Scripts Overview
 Three scripts are involved in created the variant records:
 1. A calling script
 2. A searching script
 3. A creating script
 
-**Calling Script**
+### Calling Script
 The calling script simply sets up the timers, clears out any legacy data, sets global variables, and calls the searching script.
 
-**Searching Script**
+### Searching Script
 Honestly, I’m not sure what to call this script.  It is not a searching script as in a query or a find.  Rather, its a bit like a mouse in a maze.  The script runs through each iteration of all the variant options and puts them together.  The processes is recursive using both a Loop/End Loop as well as calling itself.  An If/Else condition tells the script to either:
 1. Go Deeper
 2. Create the new record
@@ -117,7 +117,7 @@ Here is a GIF to help visualize what the script is doing.  Each square represent
 ![](../assets/images/Variants.gif)
 
 
-**Creating Script**
+### Creating Script
 Once the variant combination is determined, this script goes to the Master Item and duplicates it.
 
 The script is dynamic in that you can create any label and variant options and as long as you followed the format (see “FileMaker Demo” #2 above) the script will (or SHOULD) produce the correct number of variant combinations.
