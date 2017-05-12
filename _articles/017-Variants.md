@@ -5,8 +5,6 @@ description: Creating product variants in FileMaker Pro
 permalink: /Variants.html
 published: true
 ---
-
-# Variants
 ![](../assets/images/Variants.png)
 *Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY*
 
