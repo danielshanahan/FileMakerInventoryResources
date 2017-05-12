@@ -20,13 +20,13 @@ Each variant option is known as an attribute and there is no hard and fast rule 
 ### Attributes
 A single product can have a list of attributes.  To illustrate, I’ll use the tried and true example of shirts.  And to make the illustration a bit extreme, I’ll give the shirts a lot of attributes.  Before we can define the attributes of the shirt we need a “Master Product”.  Our Master Product will be intentionally generic in order to demonstrate attributes.   Our Master Product is a T-shirt.  Our T-shirt product can have the following attributes:
 
-Gender
-Brand
-Composite
-Color
-Size
-Sleeve Length
-Neck Cut
+- Gender
+- Brand
+- Composite
+- Color
+- Size
+- Sleeve Length
+- Neck Cut
 
 ### Attributes Can Add Up
 Each of those attributes can have choices, which are displayed here as a set:
