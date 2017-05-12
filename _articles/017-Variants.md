@@ -98,10 +98,11 @@ Three scripts are involved in created the variant records:
 3. A creating script
 
 ### Calling Script
-The calling script simply sets up the timers, clears out any legacy data, sets global variables, and calls the searching script.
+
+Script: **create n number of variants**.  The calling script simply sets up the timers, clears out any legacy data, sets global variables, and calls the searching script.
 
 ### Searching Script
-Honestly, I’m not sure what to call this script.  It is not a searching script as in a query or a find.  Rather, its a bit like a mouse in a maze.  The script runs through each iteration of all the variant options and puts them together.  The processes is recursive using both a Loop/End Loop as well as calling itself.  An If/Else condition tells the script to either:
+Script: **explode variant row (rowMarker, [attributeList, sku]).**  Honestly, I’m not sure what to call this script.  It is not a searching script as in a query or a find.  Rather, its a bit like a mouse in a maze.  The script runs through each iteration of all the variant options and puts them together.  The processes is recursive using both a Loop/End Loop as well as calling itself.  An If/Else condition tells the script to either:
 1. Go Deeper
 2. Create the new record
 
@@ -111,7 +112,7 @@ Here is a GIF to help visualize what the script is doing.  Each square represent
 
 
 ### Creating Script
-Once the variant combination is determined, this script goes to the Master Item and duplicates it.
+Script: **duplicate variant master (attributeList, sku).** Once the variant combination is determined, this script goes to the Master Item and duplicates it.
 
 The script is dynamic in that you can create any label and variant options and as long as you followed the format (see “FileMaker Demo” #2 above) the script will (or SHOULD) produce the correct number of variant combinations.
 
