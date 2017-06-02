@@ -5,7 +5,6 @@ title: Variant-Demo
 description: A demo file to support the Variant article.
 permalink: /Variant-Demo.html
 ---
-# Variant
 ![](../assets/images/fmp_variants.png)
 
 
