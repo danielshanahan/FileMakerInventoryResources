@@ -1,4 +1,10 @@
-# Goods Received - Acceptable Levels
+---
+layout: article
+title: Acceptable Levels of Goods Received
+description: Sometimes when you receive goods, close enough works!  This article has 5 ways you might use to receive goods at an acceptable level.
+permalink: /AcceptableLevels.html
+published: true
+---
 
 ![](Goods%20Received%20-%20Acceptable%20Levels/fmp_AcceptableLevels.png)
 
