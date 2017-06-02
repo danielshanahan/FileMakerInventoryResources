@@ -6,7 +6,7 @@ permalink: /AcceptableLevels.html
 published: true
 ---
 
-![](Goods%20Received%20-%20Acceptable%20Levels/fmp_AcceptableLevels.png)
+![](http://newleafdata.com/images/fmp_AcceptableLevels.png)
 
 This article is based on a question from John R. who wrote: 
 *What about the scenario where say 10,000 are ordered but our supplier agreement says that anywhere from 9,500 to 11,000 is an an acceptable fulfillment of this PO? Often the case in printed boxes or rolls of material which have been taken off larger reels and the suppliers end*
