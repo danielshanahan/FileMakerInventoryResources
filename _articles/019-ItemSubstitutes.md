@@ -1,4 +1,9 @@
-# Item Substitutes
+---
+layout: article
+title: Item Substitutes
+description: How and why to create a list of substitues for products.
+permalink: /Item-Substitutes.html
+---
 There are a couple of reasons to track substitutes for inventory items:
 
 1. Opportunity
