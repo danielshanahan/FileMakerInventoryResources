@@ -4,6 +4,8 @@ title: Item Substitutes
 description: How and why to create a list of substitues for products.
 permalink: /Item-Substitutes.html
 ---
+![Item Substitute in FileMaker Pro](http://newleafdata.com/images/fmp_ItemSubstitutes.png "Substitution Options for an Order Line Item")
+
 There are a couple of reasons to track substitutes for inventory items:
 
 1. Opportunity
