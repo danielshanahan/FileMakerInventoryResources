@@ -5,6 +5,7 @@ description: Some thoughts about implementing barcodes into your FileMaker inven
 permalink: /Barcodes.html
 ---
 ![Barcode](http://newleafdata.com/images/FMIR_barcode.jpg)
+
 *Barcode image from [Morguefile.com](https://morguefile.com/search/morguefile/1/barcode/pop)*
 
 ## Overview
@@ -59,7 +60,3 @@ This is a relatively new technology and there appears to be some implementations
 
 ## Do You Need Barcodes
 The point of this article is to help illustrate the intricacies of deciding whether or not to use barcodes.  But with proper planning you can definitely use this technology to help reduce inventory errors by increasing the accuracy of inventory usage and location.
-
-
-
-#fmir
