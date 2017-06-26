@@ -1,4 +1,9 @@
-# Barcodes
+---
+layout: article
+title: Barcodes
+description: Some thoughts about implementing barcodes into your FileMaker inventory system.
+permalink: /Barcodes.html
+---
 ![Barcode](http://newleafdata.com/images/FMIR_barcode.jpg)
 *Barcode image from [Morguefile.com](https://morguefile.com/search/morguefile/1/barcode/pop)*
 
