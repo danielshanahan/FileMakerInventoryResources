@@ -48,7 +48,10 @@ Once you’ve planned and carried out the barcode plan, it’s time to scan the 
 ## Barcode Alternatives
 There are a number of alternatives for barcodes (again, use your favorite search engine and type: “Future of Barcodes” if you have a couple of hours on a rainy afternoon).  Some very promising technologies have even prompted some to declare the demise of the barcode.  But that shouldn’t deter you from using barcodes.  It is still a strong technology. (This is my opinion, based on what I’ve read and on my experience with various warehouse visits.  To my knowledge, there is no central location of barcode usage data/measurements over the years.  If you know of such a site, please let me know.)
 
-I won’t go into much detail here, primarily because I haven’t fully researched the alternatives and I haven’t come across many in the FileMaker community asking for barcode alternatives.  Nonetheless, a couple of alternatives seem interesting:
+I won’t go into much detail here, primarily because I haven’t fully researched the alternatives and I haven’t come across many in the FileMaker community asking for barcode alternatives.  Nonetheless, a few alternatives seem interesting:
+
+### Radio Frequency Identification (RFID)
+RFID is a radio frequency emitted from a tag.  Capturing the emitted frequency requires the use of a device, however, unlike barcodes, the RFID device doesn't need to scan each tag individually.  Also, the device does not need to be mobile.  A fixed location device might be used in receiving or shipping where product would pass by (on a conveyer, via lift truck, etc.).
 
 ### Voice Directed Warehousing (VDW)
 This was initially limited to picking, so you you will find information on this if you perform a search for “Voice Picking.”  However, this is now a misnomer as the technique can be used in any part of the inventory process.  The idea is that a user reads the numbers into a microphone mounted on a headset, which, of course, is connected to a mobile software device.   
