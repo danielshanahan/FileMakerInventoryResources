@@ -1,4 +1,10 @@
-# Universal Model - Company
+---
+layout: article
+collectiontitle: Universal Data Model - Company
+title: Universal Data Model - Company
+description: Reduce your data schema by combining vendors and customers.
+permalink: /Universal-Data-Model-Company.html
+---
 *Note - in this article I write about companies, vendors, customers, and organizations.  It can get a little confusing, so here a dictionary of terms.* 
 
 **Organization** - Your company.  The company that is building a database, has need for a database, is interested in the FileMaker platform.  In other words, you.
