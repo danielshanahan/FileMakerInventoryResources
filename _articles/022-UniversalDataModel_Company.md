@@ -32,7 +32,7 @@ Before I describe one potential action to take based on the the similarities of 
 
 For example, in a flat-file system (like a spreadsheet), you might have a purchase order sheet like this:
 
-![](Universal_Data_Model_Company/Flat_File_PurchaseOrder.png)
+![](http://newleafdata.com/images/Flat_File_PurchaseOrder.png)
 
 There are several data integrity issues:
 1. Widgets, Inc. is spelled two different ways (PO1009 and PO1007).
@@ -47,7 +47,7 @@ Although I haven’t read this explicitly, my take on the Universal Data Model i
 
 To give an example of schema redundancy, let’s look again and vendors and customers.  I’ve already mentioned that there is overlap in the fields for each of these tables.  By combining these two tables into one we’ve reduced the schema data.  I suspect this has more organizational benefits than performance benefits, but I’ve not performed any benchmark tests, so this is purely speculation.
 
-![](Universal_Data_Model_Company/vendorCustomerTables.png)
+![](http://newleafdata.com/images/vendorCustomerTables.png)
 
 
 We can call this newly combined table “Company” because both vendors and customers are companies.  Once we have the two tables together we’ve solved a data issue that I haven’t presented yet.  That is, if we have one table for vendors and one table for customers, what do we do if we have a company that is both a vendor and a customer?  Admittedly, not every organization will have this need.  But in those instances where a vendor can also be a customer, you would need to add that company’s data in two different places: the vendor’s table and the customer’s table.  That causes data duplication, which is not terrible in and of itself.  But it does become a problem when the data needs to be updated.  Updating duplicate information requires the user (the one doing the updating) to remember to make the same changes in two different places.
