@@ -136,5 +136,3 @@ If your task management tool doesn’t allow the creation of tasks via email, ch
 
 ## Conclusion
 Setting a quantity level, low and high, are only helpful if some action is taken to alert users about the discrepancies.  There are a number of actions you can take - some more active and some more passive - to help you keep track of your inventory quantities.  Moreover, many of these actions can be used simultaneously.
-
-#FMIR
