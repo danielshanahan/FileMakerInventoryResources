@@ -126,11 +126,11 @@ An email alert can be sent at the moment of quantity discrepancy.  However, this
 ### Notification in Task Management
 A task management application might be a better tool to notify someone that an inventory item is below an acceptable level.  Task management tools have flourished in the last few years and most of them enable users to add tasks via email.  Here is a short list with a link that navigates to their task creation via email page.  Please note that this list is neither exhaustive nor a recommendation	from me.
 
-[Asana](https://asana.com/guide/help/email/email-to-asana)
-[Trello](http://help.trello.com/article/809-creating-cards-by-email)
-[Wrike](https://help.wrike.com/hc/en-us/articles/210324185-Email-Integration)
-[Todoist](https://support.todoist.com/hc/en-us/articles/205749772-Todoist-Your-Email)
-[Hitask](https://hitask.com/tour?q1)
+* [Asana](https://asana.com/guide/help/email/email-to-asana)
+* [Trello](http://help.trello.com/article/809-creating-cards-by-email)
+* [Wrike](https://help.wrike.com/hc/en-us/articles/210324185-Email-Integration)
+* [Todoist](https://support.todoist.com/hc/en-us/articles/205749772-Todoist-Your-Email)
+* [Hitask](https://hitask.com/tour?q1)
 
 If your task management tool doesn’t allow the creation of tasks via email, check to see if it has an API.  FileMaker 16’s improved Insert from URL and cURL capabilities makes it easier to communicate with many applications via their API and often times does not require a plugin.
 
