@@ -96,25 +96,25 @@ One options is to update a dashboard.  This is somewhat of a passive alert in th
 
 You could also create buttons on the dashboard numbers so that clicking any of the number (e.g. “Below Level Items”) would take the user to a list of those items.
 
-![](newleafdata.com/images/FMIR_dashboard_demo1.png)
+![](http://newleafdata.com/images/FMIR_dashboard_demo1.png)
 
 ### Conditional Formatting
 You can use FileMaker’s powerful conditional formatting to change a layout object such as a field.  In this example I’m changing the Available field but you could just as easily change the item field, the SKU field, etc.  This method is even more passive than the dashboard because a user may never navigate to that record to see the formatting.  For this reason, I suggest that this method only be used in conjunction with a more active method.
 
 In the screenshot, notice that the On Hand value is greater than the Level - Low value.  However, 5 are allocated (perhaps on a Sales Order).  That means only 7 are available, which is below the Level - Low field.  Therefore, the conditional formatting on the Available field appears.  In this example I show two: a background format and a text format.  You can combine the two, incorporate font sizes, font styles (e.g. Bold, Italic), or even a separate font altogether.  You have a lot of options.
 
-![](newleafdata.com/images/FMIR_Item_conditionalFormat.png)
+![](http://newleafdata.com/images/FMIR_Item_conditionalFormat.png)
 
 
 ### Hidden Objects
 Similar to conditional formatting, another passive method is to place objects on the layout that only show when the available level is below the Level - Low.  In this image, there is an alert icon in the upper right corner of the Item layout window with a text about the low levels.  These two objects - the icon and the text - can be hidden while the Level - Low quantity is equal to or above the Available quantity.
 
-![](newleafdata.com/images/FMIR_Item_hiddenObjects.png)
+![](http://newleafdata.com/images/FMIR_Item_hiddenObjects.png)
 
 ### Alert Message
 An alert message can be triggered to show when an item dips below the desired quantity.  This method is more active then the previous ones mentioned.  As a Show Custom Dialog script step, you can create any message that best solves the issue or at least moves it to the next step.  One thing to note is that if items are often going below the low level quantity then you may end up with more Alert Messages than you want.  This could hinder a person’s work flow, so use judiciously.
 
-![](newleafdata.com/images/FMIR_LowLevel_Alert.png)
+![](http://newleafdata.com/images/FMIR_LowLevel_Alert.png)
 
 In addition to the Show Custom Dialog, FileMaker 16 now has the option to display a window in a Card mode.  This offers more options for the user since the entire window can be designed with text, fields, and buttons.  Moreover, unlike the Show Custom Dialog window, a Card window can have buttons of varying length.  Thus, you can have more text inside a button than you can in the fixed-width buttons of the Show Custom Dialog window.
 
