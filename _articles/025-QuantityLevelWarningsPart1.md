@@ -73,7 +73,7 @@ What if you have some items that are stored by the quarter and some by the week?
 ## Normalize or Not
 If you are keeping more than one low and one high (e.g. per quarter, month, or week), you may want to normalize the data.  Or, you may not.  Sound ambiguous?  Honestly, I’m ambiguous about it. Normally, I normalize (pun intended).  So the related table might look something like this:
 
-![](newleafdata.com/images/qtyThresholdTable.png)
+![](http://newleafdata.com/images/qtyThresholdTable.png)
 
 The “Term” field is by month in this example but could easily be Q1, Q2, etc. for quarter or 01, 02…52 for weeks.
 
@@ -81,17 +81,17 @@ Having said that, I don’t know that I would normalize the data.  It is not cle
 
 On the other hand, we could keep all the related data in one record.  Again, 52 weeks x low and high = 104 fields.  Add our housekeeping fields and we’re at roughly 110 fields in that related table.  Since we’re tracking the low/high values in one record, 1,000 item records = 1,000 low/high records.  That table might look like this:
 
-![](newleafdata.com/images/qtyThresholdTableUnnormalized.png)
+![](http://newleafdata.com/images/qtyThresholdTableUnnormalized.png)
 
 These numbers would all be considerable less if we were tracking by the month (12 x 2 = 24 fields) or the quarter (4 x 2 = 8).
 
 There is at least one factor that would sway me to store the data in a normalized form rather than an unnormalized form: if we were retaining our data annually.  In other words, we want to know the data from last year and the previous year and 5 years ago.  In that case, I would normalize the data and add a year field, like this:
 
-![](newleafdata.com/images/qtyThresholdYear.png)
+![](http://newleafdata.com/images/qtyThresholdYear.png)
 
 Which could then be queried to return something like this:
 
-![](newleafdata.com/images/qtyThresholdYearQueried.png)
+![](http://newleafdata.com/images/qtyThresholdYearQueried.png)
 
 ## Conclusion
 Inventory level warnings can be as simple or complex as your organization needs.  A warning for low inventory is the base but you may also want to set a warning for quantities that are too high.  And you’ll need to decide if those quantities should change over time (within a given year).
