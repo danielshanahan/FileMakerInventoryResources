@@ -2,7 +2,7 @@
 layout: article
 collectiontitle: Stock Adjustments
 title: Stock Adjustments
-description: Eventually, your physical inventory count will differ from your database.  Here is one way to manage that discrepancy..
+description: Eventually, your physical inventory count will differ from your database.  Here is one way to manage that discrepancy.
 permalink: /Stock-Adjustments.html
 published: true
 ---
