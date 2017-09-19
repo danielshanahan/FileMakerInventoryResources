@@ -11,6 +11,6 @@ formid: #
 
 This is a free download in support of the Universal Data Model series of articles.  It shows the combination of vendors (or suppliers) with customers into a universal table called COMPANY.  It also shows the combination of various order tables such as Purchase Order, Sales Order, Work Order, etc. into a universal table called ORDER.
 
-Those familiar with the Universal Data Model will notice that it does not include a Party Model, which is addressed in article ![Universal Data Model - Company](http://filemakerinventoryresources.com/Universal-Data-Model-Company.html).
+Those familiar with the Universal Data Model will notice that it does not include a Party Model, which is addressed in article  ![Universal Data Model - Company](http://filemakerinventoryresources.com/Universal-Data-Model-Company.html).
 
 *The download link for this file is sent via email after submitting the "Updates and Downloads" form.  If you didn't receive that welcome email, please let me know at daniel@newleafdata.com*
