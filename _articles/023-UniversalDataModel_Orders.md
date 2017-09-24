@@ -18,12 +18,12 @@ A Purchase Order, then, would have a Purchase Order Header and Purchase Order Li
 
 In an inventory management system there are a number of order tables and they all follow the same pattern of a Header-Line (or parent-child).  For example:
 
-• Purchase Order
-• Sales Order
-• Loan Order
-• Work Order
-• Assembly Order
-• Shipping Order
+* Purchase Order
+* Sales Order
+* Loan Order
+* Work Order
+* Assembly Order
+* Shipping Order
 
 Presuming a large overlap of fields in the Header and Lines tables, then these can be combined to an Order and Order Line table.  This reduces redundancy in the data schema.
 
