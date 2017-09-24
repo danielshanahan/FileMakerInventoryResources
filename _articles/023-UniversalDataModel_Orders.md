@@ -66,7 +66,6 @@ This can be a little tricky, particularly if you are new to relational database 
 To keep the concept simple, I’ve only discussed combining order tables, but you can really do the with any table that has a header and lines such as these:
 
 * Invoice - Invoice Line
-* Invoice - Invoice Line
 * Receipt - Receipt Line
 * Putaway - Putaway Line
 * Pick - Pick Line
