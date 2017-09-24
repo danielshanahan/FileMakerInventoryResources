@@ -17,6 +17,7 @@ A Purchase Order, then, would have a Purchase Order Header and Purchase Order Li
 ![](http://newleafdata.com/images/Header_Lines.png)
 
 In an inventory management system there are a number of order tables and they all follow the same pattern of a Header-Line (or parent-child).  For example:
+
 • Purchase Order
 • Sales Order
 • Loan Order
