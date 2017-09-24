@@ -67,6 +67,7 @@ To keep the concept simple, I’ve only discussed combining order tables, but yo
 
 * Invoice - Invoice Line 
 * Receipt - Receipt Line
+* Receipt - Receipt Line
 * Putaway - Putaway Line
 * Pick - Pick Line
 * Pack - Pack Line
