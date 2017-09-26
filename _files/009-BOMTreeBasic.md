@@ -3,7 +3,7 @@ layout: file
 collectiontitle: Demo File - BOM Tree Basic
 title: Demo File - BOM Tree Basic
 description: A demo file to support the Item Substitute article.
-permalink: /Download_Item-Substitute.html
+permalink: /Download_BOM-Tree-Basic.html
 formid: #
 ---
 
