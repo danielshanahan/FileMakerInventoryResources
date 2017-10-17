@@ -5,7 +5,7 @@ title: Demo File - Sales Order Template
 description: A demo file that shows how to create a template for common orders.
 permalink: /Download-Sales-Order-Template.html
 formid: #
-created: 2017–10-03
+created: "Created: 2017–10-03"
 modified: null
 ---
 
