@@ -6,6 +6,8 @@ description: A demo file that shows how to create a template for common orders.
 permalink: /Download-Sales-Order-Template.html
 formid: #
 ---
+Created: 2017–10-03
+Modified: 2017–10-03
 
 ![Item Substitution](http://newleafdata.com/images/FMIR_SalesOrderTemplate.png)
 
