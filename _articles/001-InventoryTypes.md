@@ -3,6 +3,7 @@ layout: article
 title: Inventory Types
 description: 6 common inventory management types.
 permalink: /Inventory-Types.html
+created: Created 2017-03-11
 ---
 There are many businesses that require inventory management systems.  Though not exhaustive, here is a list of 6 common inventory management types:
 
