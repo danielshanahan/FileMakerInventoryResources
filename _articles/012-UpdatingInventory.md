@@ -4,6 +4,7 @@ collectiontitle: Updating Inventory Quantities
 title: Updating Inventory Quantities
 description: Methods for updating inventory quantities
 permalink: /Updating-Inventory.html
+created: Created 2017-03-11
 ---
 To state the obvious: inventory is dynamic.  Products are constantly moving into, throughout, and out of your business.  If you are a manufacturer or you provide kits, then products are also getting bundled with other products.
 
