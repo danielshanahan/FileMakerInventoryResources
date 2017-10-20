@@ -4,6 +4,7 @@ collectiontitle: Inventory Processes
 title: Inventory Process
 description: A succinct list of the processes within an inventory management system.
 permalink: /Inventory-Process.html
+created: Created 2017-03-11
 ---
 For those new to the inventory process it may be a bit overwhelming.  The goal in this article is to list the processes that go along with many inventory systems.
 
