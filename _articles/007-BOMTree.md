@@ -4,6 +4,7 @@ collectiontitle: BOM Tree
 title: BOM Tree
 description: A Bill of Materials (BOM) tree structure that enables users to see all products components at once.
 permalink: /BOM-Tree.html
+created: Created 2017-03-11
 ---
 If you haven’t read the article on Bill of Materials (BOM), you may want to take a look at that before reading about the tree.  The difference between a BOM and a BOM tree is that the former is only one level deep and used to build the BOM (which is discussed in the BOM article).
 
