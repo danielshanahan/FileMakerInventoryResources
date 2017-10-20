@@ -5,6 +5,7 @@ title: Stock Adjustments
 description: Eventually, your physical inventory count will differ from your database.  Here is one way to manage that discrepancy.
 permalink: /Stock-Adjustments.html
 published: true
+created: Created 2017-09-07
 ---
 
 Every inventory application will have a wrong count at some point.  That may seem discouraging to the database developer who spent long hours coding an air-tight system.  It may also seem an affront to the operations manager who put into place the proper procedures to ensure quantity data integrity.  But alas, we live in an imperfect world and physical inventory quantity (i.e. what is actually in the bin) and book quantity (i.e. what is recorded in the database system) may, at times, be off.  In this article, I’ll look at the following:
