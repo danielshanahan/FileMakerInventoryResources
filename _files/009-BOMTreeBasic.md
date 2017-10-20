@@ -5,7 +5,7 @@ title: Demo File - BOM Tree Basic
 description: A demo file to support the Item Substitute article.
 permalink: /Download_BOM-Tree-Basic.html
 formid: #
-created: 2017–06-13
+created: Created 2017–06-13
 ---
 
 ![Item Substitution](http://newleafdata.com/images/fmp_BOMTreeBasic.png)
