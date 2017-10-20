@@ -4,6 +4,7 @@ collectiontitle: Transferring Inventory
 title: Transferring Inventory
 description: Tracking internal inventory movements
 permalink: /Transferring-Inventory.html
+created: Created 2017-03-11
 ---
 ![enter image description here]({{ site.baseurl }}/assets/images/MorgueFile00073412185.jpg)
 
