@@ -4,6 +4,7 @@ collectiontitle: Kitting
 title: Kitting
 description: Kitting is the process of taking finished goods and bundling them together to make a new product offering.
 permalink: /Kitting.html
+created: Created 2017-03-11
 ---
 Kitting is the process of taking finished goods and bundling them together to make a new product offering.  Gift baskets and tool kits are an example of kitting.  Each of the items can be sold individually.
 
