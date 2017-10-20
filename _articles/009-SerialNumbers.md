@@ -4,6 +4,7 @@ collectiontitle: Serial Numbers
 title: Serial Numbers
 description: How to handle product serial numbers
 permalink: /Serial-Numbers.html
+created: Created 2017-03-11
 ---
 Some products - either purchased or manufactured - may require a serial number.  The purpose of a serial number is to track a unique instance of a product.  To illustrate, let's suppose you have an Asset Management Inventory system and some of the items you track are phones.  You buy phones in bulk and distribute them to your team.  You carry both iPhones and Android phones.  You also purchase phone cases for those phones.  You'll want the phones to have a serial number but you don't need to have a serial number for the cases.
 
