@@ -4,6 +4,7 @@ collectiontitle: Lots and Batches
 title: Lots and Batches
 description: A discussion about product that is created in lots (or batches).
 permalink: /Lots-and-Batches.html
+created: Created 2017-03-11
 ---
 Products that are assembled (manufactured items and kitted items) are often done in lots or batches.  The two words will be used interchangeably for this discussion.  When a lot is created the product is given a lot number.  If you go to your medicine cabinet and look at the bottom of your aspirin, ibuprofen, cough medicine, etc., you’ll likely see a lot number.  This enables provides traceability, in cases such as a recall.
 
