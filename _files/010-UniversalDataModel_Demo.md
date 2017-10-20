@@ -5,7 +5,7 @@ title: Demo File - Universal Data Model
 description: A demo file to support the Universal Data Model series of articles.
 permalink: /Download_Universal-Data-Model.html
 formid: #
-created: 2017–08-11
+created: Created 2017–08-11
 ---
 
 ![Item Substitution](http://newleafdata.com/images/FMIR_UDM_Demo.png)
