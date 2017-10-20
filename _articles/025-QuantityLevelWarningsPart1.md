@@ -5,6 +5,7 @@ title:  Quantity Level Warnings - Part 1
 description: Setting up the data structure for quantity level warnings.
 permalink: /Quantity-Level-Warnings-Part-1.html
 published: true
+created: Created 2017-08-23
 ---
 
 ## Intro
