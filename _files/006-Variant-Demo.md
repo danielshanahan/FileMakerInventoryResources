@@ -4,8 +4,8 @@ collectiontitle: Variant-Demo
 title: Variant-Demo
 description: A demo file to support the Variant article.
 permalink: /Variant-Demo.html
-created: 2017–05-03
-modified: 2017-05-04
+created: Created 2017–05-03
+modified: Modified 2017-05-04
 ---
 ![](../assets/images/fmp_variants.png)
 
