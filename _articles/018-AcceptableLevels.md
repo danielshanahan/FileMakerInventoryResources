@@ -4,6 +4,7 @@ title: Acceptable Levels of Goods Received
 description: Sometimes when you receive goods, close enough works!  This article has 5 ways you might use to receive goods at an acceptable level.
 permalink: /AcceptableLevels.html
 published: true
+created: Created 2017-06-07
 ---
 
 ![](http://newleafdata.com/images/fmp_AcceptableLevels.png)
