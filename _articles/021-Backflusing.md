@@ -3,6 +3,7 @@ layout: article
 title: Backflushing
 description: Another method of updating inventory quantities.
 permalink: /Backflushing.html
+created: Created 2017-08-07
 ---
 # Updating Inventory - Backflushing
 ![Assembly Flow](http://newleafdata.com/images/Backflush_AssemblyFlow.png)
