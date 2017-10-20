@@ -4,6 +4,7 @@ title: Variants
 description: Creating product variants in FileMaker Pro
 permalink: /Variants.html
 published: true
+created: Created 2017-05-12
 ---
 ![](../assets/images/Variants.png)
 
