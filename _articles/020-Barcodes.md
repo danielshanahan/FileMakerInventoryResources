@@ -3,6 +3,7 @@ layout: article
 title: Barcodes
 description: Some thoughts about implementing barcodes into your FileMaker inventory system.
 permalink: /Barcodes.html
+created: Created 2017-06-29
 ---
 ![Barcode](http://newleafdata.com/images/FMIR_barcode.jpg)
 
