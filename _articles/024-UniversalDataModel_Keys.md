@@ -5,6 +5,7 @@ title:  Universal Data Model - Keys
 description: Creating human readable keys for the order table.
 permalink: /Universal-Data-Model-Keys.html
 published: true
+created: Created 2017-08-11
 ---
 ## Intro
 One of the things many organizations want to have is a reference number that conveys meaning.  For example, PO20999 tells the organization that they are likely in the Purchase Order table and that there are 20,998 previous purchase orders.  In this article I’ll review the need for primary keys and the techniques I use to add another sequential field with meaning.
