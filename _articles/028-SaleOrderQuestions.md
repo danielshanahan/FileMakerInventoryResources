@@ -5,6 +5,7 @@ title: Type Title Here
 description: How to plan for your sales order module.
 permalink: /11-questions-to-ask-before-building-your-sales-order-module.html
 published: true
+created: Created 2017-09-19
 ---
 Ok, first of all, there might be 12 questions.  Or 16.  These are the ones I thought of but you might have more.  The point is, sales orders can be complex so it’s beneficial to think through the requirements before building.  Here are the ten questions I came up with:
 
