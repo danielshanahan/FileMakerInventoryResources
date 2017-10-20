@@ -5,6 +5,7 @@ title: Universal Data Model - Orders
 description: Learn how you can reduce your data schema by combining all the different types of order tables.
 permalink: /Universal-Data-Model-Orders.html
 published: true
+created: Created 2017-08-11
 ---
 In [part one](http://filemakerinventoryresources.com/Universal-Data-Model-Company.html) of this series I discussed how a Universal Data Model can reduce data schema by combining the vendor and customer tables into one table called Company.
 
