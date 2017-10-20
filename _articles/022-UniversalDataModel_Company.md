@@ -4,6 +4,7 @@ collectiontitle: Universal Data Model - Company
 title: Universal Data Model - Company
 description: Reduce your data schema by combining vendors and customers.
 permalink: /Universal-Data-Model-Company.html
+created: Created 2017-08-09
 ---
 *Note - in this article I write about companies, vendors, customers, and organizations.  It can get a little confusing, so here a dictionary of terms.* 
 
