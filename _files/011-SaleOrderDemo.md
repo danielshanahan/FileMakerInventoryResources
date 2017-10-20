@@ -5,6 +5,7 @@ title: Demo File - Sales Order
 description: A demo file to show two ways to handle backorders for the sales order module.
 permalink: /Download-Sales-Order.html
 formid: #
+created: 2017–10-03
 ---
 
 ![Item Substitution](http://newleafdata.com/images/FMIR_SalesOrder.png)
