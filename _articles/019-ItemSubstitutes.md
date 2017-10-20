@@ -3,6 +3,7 @@ layout: article
 title: Item Substitutes
 description: How and why to create a list of substitues for products.
 permalink: /Item-Substitutes.html
+created: Created 2017-06-13
 ---
 ![Item Substitute in FileMaker Pro](http://newleafdata.com/images/fmp_ItemSubstitutes.png "Substitution Options for an Order Line Item")
 
