@@ -5,6 +5,7 @@ title: 6 ways to handle backorders
 description: What do you do when you cannot fulfill a customer’s request?  Here are 6 ideas.
 permalink: /6-ways-to-handle-backorders.html
 published: true
+created: Created 2017-09-19
 ---
 
 Inventory management is always a bit of a dance to figure out how much stock to have available.  Too much stock might mean that you’re investing too much money in product and storage space.  Too little stock could threaten customer satisfaction.  For this reason, it’s good to come up with a strategy for when you cannot completely fulfill a sales order.  Here are some ideas.  The list is not exhaustive, but meant to help you clarify your plan.
