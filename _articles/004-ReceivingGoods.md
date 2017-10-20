@@ -4,6 +4,7 @@ collectiontitle: Receiving Goods
 title: Receiving Goods
 description: 5 ways in which your organization might receive goods.
 permalink: /Receiving-Goods.html
+created: Created 2017-03-11
 ---
 There are multiple scenarios in which your organization might receive goods.  Here are five:
 
