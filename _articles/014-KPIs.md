@@ -4,6 +4,7 @@ collectiontitle: KPIs
 title: KPIs
 description: More than just for dashboards
 permalink: /KPIs.html
+created: Created 2017-03-11
 ---
 {% include figure.html
     url="/assets/images/fmp_dashboard.png"
