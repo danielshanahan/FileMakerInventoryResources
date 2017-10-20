@@ -4,6 +4,7 @@ collectiontitle: Quantity Fields
 title: 5 Common Quantity Fields
 description: 5 common inventory quantity fields.
 permalink: /Quantity-Fields.html
+created: Created 2017-03-11
 ---
 Inventory Management Systems (IMS) usually have multiple fields for counting inventory.  The quantities have different meanings and provide a fuller picture of how many items exist than one field can.  Here are 5 common inventory quantity fields:
 
