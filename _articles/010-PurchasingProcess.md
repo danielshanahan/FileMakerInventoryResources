@@ -4,6 +4,7 @@ collectiontitle: The Purchasing Process
 title: The Purchasing Process
 description: 8 Scenarios you may experience with Purchase Orders
 permalink: /The-Purchasing-Process.html
+created: Created 2017-03-11
 ---
 The Purchasing Process is the first part of the Inventory Process.  It involves purchasing, receiving, and putaway.  (Watch my [YouTube video](https://youtu.be/7w20yKzoOiE) for a walk through the process with a FileMaker demo file.  The demo file is available in the File section of FileMaker Inventory Resources.)
 
