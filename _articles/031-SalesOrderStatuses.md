@@ -5,7 +5,7 @@ title: 7 Potential Sales Order Statuses
 description: The status field allows you to track the process of a sales order.  But what should those statuses be?  Here are 7 suggestions.
 permalink: /7-Potential-Sales-Order-Statuses.html
 published: true
-created: Created 2017-09-17
+created: Created 2017-09-19
 ---
 
 Having a field for the sales order status is important as it gives users the ability to get an overview of all the sales orders (e.g. a chart or aggregate number on a dashboard) as well as query the database to select only sales orders of a certain status.  There are a lot of moving parts in a sales order, which means the statues can be complex.  These are just a few examples.  To optimize your system, you may want to check with the various teams involved (sales, fulfillment, management, etc.) to chart and label the various statuses in the sales order process.
