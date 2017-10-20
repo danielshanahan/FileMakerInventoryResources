@@ -4,6 +4,7 @@ collectiontitle: Bill of Materials
 title: Bill of Materials
 description: A Bill of Materials is a recipe for creating other products.
 permalink: /Bill-Of-Materials.html
+created: Created 2017-03-11
 ---
 ## Bill of Materials (BOM)
 
