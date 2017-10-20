@@ -3,7 +3,7 @@ layout: file
 collectiontitle: Demo File - Acceptable Levels
 title: Demo File - Acceptable Levels
 description: A demo file to support the Acceptable Levels article.
-created: 2017–06-02
+created: Created 2017–06-02
 ---
 
 ![Order lines with acceptable levesl of goods received.](http://newleafdata.com/images/fmp_AcceptableLevels.png)
