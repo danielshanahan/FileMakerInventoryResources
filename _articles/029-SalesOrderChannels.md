@@ -5,6 +5,7 @@ title: Sales Order Channels
 description: There are a number of ways for sales request to reach you.  This article discusses some of those ways and the impact it may have on building your sales order module.
 permalink: /Sales-Order-Channels.html
 published: true
+created: Created 2017-09-19
 ---
 
 From a sales perspective, it is great to have multiple channels for selling your products.  However, from a software application perspective, various channels introduce new challenges.  This article is not a definitive tome on integrating various sales channels with FileMaker Pro.  It is more of an awareness tool.  The article is meant to help you think about your process and the various benefits/challenges each channel offers your business.
