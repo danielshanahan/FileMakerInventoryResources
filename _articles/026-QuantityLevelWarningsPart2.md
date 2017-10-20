@@ -5,6 +5,7 @@ title:  Quantity Level Warnings - Part 2
 description: Setting up the user alerts for quantity level warnings.
 permalink: /Quantity-Level-Warnings-Part-2.html
 published: true
+created: Created 2017-08-23
 ---
 ## Intro
 This is the second of a two part series on creating a quantity warning system for your inventory management system.  The first part focused on time periods for low/high data and where to store that data.  In this second part, I’ll discuss when to trigger a warning and options for notifying users.
