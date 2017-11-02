@@ -5,7 +5,7 @@ title: Demo File - Accordion Navigation Menu
 description: A demo file that shows how to create an accordion style navigation menu.
 permalink: /Download-Accordion-Navigation-Menu.html
 formid: #
-created: Created 2017–10-03
+created: Created 2017–11-02
 ---
 
 
