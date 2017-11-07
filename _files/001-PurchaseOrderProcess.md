@@ -8,7 +8,7 @@ formid: 70185812027
 created: Created 2017-04-17
 modified: Modified 2017-11-07
 ---
-[](www.newleafdata.com/images/FMIR_POprocess.png)
+![PO Process](http://newleafdata.com/images/FMIR_POprocess.png)
 
 This file demonstrates one way to receive goods against a purchase order.
 
