@@ -6,7 +6,7 @@ description: A technique for receiving from multiple tables.
 permalink: /Download_poProcess_v2.html
 formid: 70465958323
 created: Created 2017-04-17
-modified: Modified 2017-10-03
+modified: Modified 2017-11-07
 ---
 ![PO Process with multiple inputs](http://newleafdata.com/images/FMIR_POprocessV2.png)
 
