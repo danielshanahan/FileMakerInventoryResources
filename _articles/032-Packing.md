@@ -7,7 +7,7 @@ permalink: /Packing.html
 published: true
 created: Created 2017-12-22
 ---
-![](Packing/newleafdata.com/images/FMIR_file0001118206238.jpg)
+![Boxes](http://newleafdata.com/images/FMIR_file0001118206238.jpg)
 *Image by npclark2k, [Morguefile free photographs for commercial use](https://morguefile.com/photos/morguefile/44/boxes/pop)*
 
 Packing is part of the inventory cycle that is often mentioned in relationship to picking and shipping: Pick-Pack-Ship.  It’s a tough topic in FileMaker for two reasons:
@@ -16,7 +16,7 @@ Packing is part of the inventory cycle that is often mentioned in relationship t
 
 Beyond that, there’s also an assumption that your organization needs to know all the packing data.  As we’ll see a bit later, you can package an item and put that item inside another package and another and so on, like a Matryoshka doll.  
 
-![](Packing/http://newleafdata.com/images/FMIR_DSC04228.JPG)
+![Matryoshka dolls](http://newleafdata.com/images/FMIR_DSC04228.JPG)
 *Image by laramusikanski, https://morguefile.com/photos/morguefile/1/Russian%20dolls/pop*
 
 But you may not need to track each part in each package.  For example, let’s say a customer calls you and says she is missing a piece from her order.  You could say, “That widget should be in envelope A, which came in envelope B.  Envelope B should have been in the small box A, which was in the medium box B, which, of course, was in the main box.”
@@ -28,12 +28,12 @@ All of that is to say that you may not need to have a separate packing module in
 ## Handling Units
 When you package something for shipment, the packaging can take several forms.  It might be an envelope, a box, or even a pallet.  The technical term for these is “Handling Unit”.  One handling unit can be put in or on another handling unit, as with the example above.  Presuming you need to track which item is in which handling unit and which handling unit is in or on any other handing unit, you’ll need some way to assign the item to the handling unit.  Here is one example of what a packing layout might look like:
 
-![](Packing/http://newleafdata.com/images/FMIR_Pack.png)
+![Example mockup of a packing layout](http://newleafdata.com/images/FMIR_Pack.png)
 
 Let’s take a look at the various sections.
 
 ## Packing Header
-![](Packing/http://newleafdata.com/images/FMIR_PackingHeader.png)
+![Packing header](http://newleafdata.com/images/FMIR_PackingHeader.png)
 
 The header table would include items like the following:
  
@@ -45,18 +45,18 @@ The header table would include items like the following:
 6. Packer; i.e. who packed this record.
 
 ## Selecting the Handling Units
-![](Packing/http://newleafdata.com/images/FMIR_SelectHandlingUnits.png)
+![Selecting handling units](http://newleafdata.com/images/FMIR_SelectHandlingUnits.png)
 
 The next step is to select the handling units needed.
 
 1. A drop down list of all the available handling units.  You can use either a drop down or a popup menu.  Either way, you’ll want to add a trigger on the field so that when a user selects a handling unit from the list, it populates the handling unit portal below.
 
-![](Packing/http://newleafdata.com/images/FMIR_HandlingUnitsDropdown.png)
+![Handling unit drop down](http://newleafdata.com/images/FMIR_HandlingUnitsDropdown.png)
 
 2. This portal is a list of all the handling units for this particular record.  Note that it is NOT a list of all the available handling units.  That information is in the drop down list above.  This list indicates the handling units that are needed to ship all the items that were picked for this particular sales order.  In the graphic, the blue highlighted handling unit (HU0124) is the selected handling unit, which is used below.
 
 ## Putting the Pick in the Handling Unit
-![](Packing/http://newleafdata.com/images/FMIR_PickedIntoHandlingUnit.png)
+![Putting the pick inside the handling unit](http://newleafdata.com/images/FMIR_PickedIntoHandlingUnit.png)
 
 The final step is put the picked items into the handling units.  This might include the following elements:
 
@@ -64,14 +64,14 @@ The final step is put the picked items into the handling units.  This might incl
 2. A Select popover button in the portal of picked items that assigns a quantity of picked items into a selected handling unit.  In this layout example, a button “Pack Balance” allows the user to assign the remaining balance to the selected handling unit.  Below that, an option exists for the user to enter a quantity and click the “Pack” button.  Obviously, rules should exist somewhere (field level or script level) that do not permit a user to pack a quantity greater than the quantity balance field (Bal).
 
 
-![](Packing/http://newleafdata.com/images/FMIR_SelectPopover.png)
+![Select popover](http://newleafdata.com/images/FMIR_SelectPopover.png)
 
 3. At the bottom of the Picked portal might be a button that can take all the remaining balance quantity and put it into the selected handling unit.  This is especially helpful when there is only one handling unit for a pack record.
 
-![](Packing/http://newleafdata.com/images/FMIR_PackAll.png)
+![Pick all balances button](http://newleafdata.com/images/FMIR_PackAll.png)
 
 ## The Packed Handling Unit Portal
-![](Packing/http://newleafdata.com/images/FMIR_NowFillingHandlingUnit.png)
+![The packed handling unit portal](http://newleafdata.com/images/FMIR_NowFillingHandlingUnit.png)
 
 You’ll need a way to visually monitor which handling unit is being packed.
 
@@ -81,9 +81,9 @@ You’ll need a way to visually monitor which handling unit is being packed.
 4. The weight and the weights unit of measure are also part of the portal columns.
 5. The packer may need to add packing material (e.g. bubble wrap, paper, etc.) to the handling unit to decrease shifting of objects during shipping.  A dropdown at the top of the packed handling unit portal is one way of selecting the material to add.  A trigger on the field can add the selected material to the portal.
 
-![](Packing/http://newleafdata.com/images/FMIR_SelectPackingMaterial.png)
+![Selecting packaging material](http://newleafdata.com/images/FMIR_SelectPackingMaterial.png)
 
-![](Packing/http://newleafdata.com/images/FMIR_PackingMaterialAdded.png)
+![The packaging material added as a portal row](http://newleafdata.com/images/FMIR_PackingMaterialAdded.png)
 
 ## Add to Transaction Table
 The last step is to log the movement of an item into a handling unit by creating transaction records.  There are several ways to do this.  In this example, there is a button on the lower left of the layout called “Post to Shipping” which can make the all the necessary transactions at once.
