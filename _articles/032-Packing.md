@@ -7,7 +7,7 @@ permalink: /Packing.html
 published: true
 created: Created 2017-12-22
 ---
-![](Packing/http://newleafdata.com/images/FMIR_file0001118206238.jpg)
+![](Packing/newleafdata.com/images/FMIR_file0001118206238.jpg)
 *Image by npclark2k, [Morguefile free photographs for commercial use](https://morguefile.com/photos/morguefile/44/boxes/pop)*
 
 Packing is part of the inventory cycle that is often mentioned in relationship to picking and shipping: Pick-Pack-Ship.  It’s a tough topic in FileMaker for two reasons:
