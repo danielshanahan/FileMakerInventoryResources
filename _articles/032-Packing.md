@@ -8,6 +8,7 @@ published: true
 created: Created 2017-12-22
 ---
 ![Boxes](http://newleafdata.com/images/FMIR_file0001118206238.jpg)
+
 *Image by npclark2k, [Morguefile free photographs for commercial use](https://morguefile.com/photos/morguefile/44/boxes/pop)*
 
 Packing is part of the inventory cycle that is often mentioned in relationship to picking and shipping: Pick-Pack-Ship.  It’s a tough topic in FileMaker for two reasons:
@@ -17,6 +18,7 @@ Packing is part of the inventory cycle that is often mentioned in relationship t
 Beyond that, there’s also an assumption that your organization needs to know all the packing data.  As we’ll see a bit later, you can package an item and put that item inside another package and another and so on, like a Matryoshka doll.  
 
 ![Matryoshka dolls](http://newleafdata.com/images/FMIR_DSC04228.JPG)
+
 *Image by laramusikanski, https://morguefile.com/photos/morguefile/1/Russian%20dolls/pop*
 
 But you may not need to track each part in each package.  For example, let’s say a customer calls you and says she is missing a piece from her order.  You could say, “That widget should be in envelope A, which came in envelope B.  Envelope B should have been in the small box A, which was in the medium box B, which, of course, was in the main box.”
