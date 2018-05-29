@@ -1,10 +1,8 @@
 title: FileMaker Inventory Resources
-author: GitHub User
-email: your-email@domain.com
+author: Daniel Shanahan
+email: support@newleafdata.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Articles and free demo files for business owners building their own inventory managnement app on the FileMaker platform.
 baseurl: ""
 twitter_username: jekyllrb
 github_username:  jekyll
