@@ -8,6 +8,8 @@ formid: 70465958323
 created: Created 2017-04-17
 modified: Modified 2017-11-07
 ---
+<script async id="_ck_399435" src="https://forms.convertkit.com/399435?v=7"></script>
+
 ![PO Process with multiple inputs](http://newleafdata.com/images/FMIR_POprocessV2.png)
 
 This file is an updated version of the previous PO Process demo file. This file demonstrates a technique for selecting the proper data to be received:
