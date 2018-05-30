@@ -7,6 +7,8 @@ permalink: /Download_UpdatingQuantities.html
 formid: 70245354045
 created: Created 2017-04-17
 ---
+<script async id="_ck_399581" src="https://forms.convertkit.com/399581?v=7"></script>
+
 This is a .zip file of 6 FileMaker Pro file, each demonstrating a different method for updating inventory quantites.  Make sure to read the accompanying article [Updating Inventory Quantities](Updating-Inventory.html).
 
 *The download link for this file is sent via email after submitting the "Updates and Downloads" form.  If you didn't receive that welcome email, please let me know at daniel@newleafdata.com*
