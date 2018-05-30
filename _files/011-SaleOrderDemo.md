@@ -9,6 +9,8 @@ created: Created 2017–09-19
 modified: Modified 2017-10-03
 ---
 
+<script async id="_ck_401796" src="https://forms.convertkit.com/401796?v=7"></script>
+
 ![Item Substitution](http://newleafdata.com/images/FMIR_SalesOrder.png)
 
 This is a free download that demonstrates two methods for handling backorders in the sales order module.
