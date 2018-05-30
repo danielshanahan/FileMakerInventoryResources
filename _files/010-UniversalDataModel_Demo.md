@@ -9,6 +9,8 @@ created: Created 2017-08-10
 modified: Modified 2017–08-11
 ---
 
+<script async id="_ck_400622" src="https://forms.convertkit.com/400622?v=7"></script>
+
 ![Item Substitution](http://newleafdata.com/images/FMIR_UDM_Demo.png)
 
 This is a free download in support of the Universal Data Model series of articles.  It shows the combination of vendors (or suppliers) with customers into a universal table called COMPANY.  It also shows the combination of various order tables such as Purchase Order, Sales Order, Work Order, etc. into a universal table called ORDER.
