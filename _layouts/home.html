@@ -24,6 +24,27 @@ $('.message .close')
 <div class="ui positive message">
   <i class="close icon"></i>
   <div class="header">
+    FileMaker Inventory Item Valuation
+  </div>
+  <p>Learn how to set your item cost at <a href="https://www.youtube.com/watch?v=Cob8OJWkFu8">this free webinar by New Leaf Data, LLC.</a>.</p>
+</div>
+<!-- End FMIS Note -->
+
+<!-- FMIS Note -->
+<script>
+$('.message .close')
+  .on('click', function() {
+    $(this)
+      .closest('.message')
+      .transition('fade')
+    ;
+  })
+;
+</script>
+
+<div class="ui positive message">
+  <i class="close icon"></i>
+  <div class="header">
     Free inventory starter solution now available!
   </div>
   <p>Make your life easy! Start your next inventory project with <a href="https://daniels-school-e66f.thinkific.com">FM Inventory Starter (FMIS)</a>.</p>
