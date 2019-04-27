@@ -6,7 +6,6 @@ description: 5 ways in which your organization might receive goods.
 permalink: /Receiving-Goods.html
 created: Created 2017-03-11
 ---
-# Receiving Goods
 There are multiple scenarios in which your organization might receive goods.  Here are five:
 
 1. Receiving against a purchase order.
