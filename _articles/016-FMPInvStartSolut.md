@@ -7,7 +7,9 @@ permalink: /FMP-inventory-starter-solutions.html
 published: true
 created: Created 2017-06-06
 ---
-I was curious about the FileMaker Starter Solution for Inventory management in recent versions and I thought it would fun to create an article showing its evolution (at least from version 11 through 15).  I’m not going to comment on the solutions.  Rather, this is simply a place to see the item detail view in its different iterations.
+I was curious about the FileMaker Starter Solution for Inventory management in recent versions and I thought it would fun to create an article showing its evolution (at least from version 11 through 18).  There's a change in version 17, which I describe below.
+
+I think all the files are interesting to open, reverse engineer, see different techniques.  **However, I do not recommend starting an inventory project with these files!**  They simply aren't robust enough.
 
 The screenshots are only in Mac, but of course, FileMaker also runs on Windows.
 
@@ -41,5 +43,18 @@ Enjoy!
 
 ![](assets/images/fmp_Inventory_Starter_Solution_16.png)
 
+
+## Starter vs. Sample
+Starting with version 17, FileMaker Inc. (FMI) made two inventory files available.  One called a Starter and the other called a Sample.  The distinction, according to FMI,is that the Sample apps show the possibilities of what can be done.  The presumption, then, is that the Starter is a file to base your project.
+
+Frankly, I don't find this distinction helpful at all.  The sample file appears to be the same as version 15 (not 16), with three tables: Inventory, Company Info, and Stock Transactions.  The Starter file only has two tables: Products and Inventory Transactions.  By contrast, my ![FM Inventory Starter file](https://www.fminventorystarter.com/) has 40 tables (plus a table template, which I didn't count).
+
+The noticeable difference is that one seems to be designed for the desktop (Sample) and the other for the iPad (Starter).  There's also a slight difference in table and field names.
+
+### FileMaker 17 Sample (.fmp12)
+![](assets/images/fmp_Inventory_Sample_Solution_17.png)
+
+### FileMaker 17 Starter (.fmp12)
+![](assets/images/fmp_Inventory_Starter_Solution_17.png)
 
 
