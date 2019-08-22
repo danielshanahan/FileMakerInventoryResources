@@ -45,11 +45,19 @@ Enjoy!
 
 
 ## Starter vs. Sample
-Starting with version 17, FileMaker Inc. (FMI) made two inventory files available.  One called a Starter and the other called a Sample.  The distinction, according to FMI,is that the Sample apps show the possibilities of what can be done.  The presumption, then, is that the Starter is a file to base your project.
+Starting with version 17, FileMaker Inc. (FMI) made two inventory files available.  One called a Starter and the other called a Sample.  
+![](assets/images/fmp_Starter_Sample.png)
+
+The distinction, according to FMI,is that the Sample apps show the possibilities of what can be done.  The presumption, then, is that the Starter is a file to base your project.
 
 Frankly, I don't find this distinction helpful at all.  The sample file appears to be the same as version 15 (not 16), with three tables: Inventory, Company Info, and Stock Transactions.  The Starter file only has two tables: Products and Inventory Transactions.  By contrast, my ![FM Inventory Starter file](https://www.fminventorystarter.com/) has 40 tables (plus a table template, which I didn't count).
 
 The noticeable difference is that one seems to be designed for the desktop (Sample) and the other for the iPad (Starter).  There's also a slight difference in table and field names.
+
+The selector wizard has a nice interface, which shows the main detail view of the file.  In previous versions, if you wanted to look at the user interface (UI) you had to download the file and open it.
+![](assets/images/fmp_Inventory_Starter_Select)
+
+![](assets/images/fmp_Inventory_Sample_Select)
 
 ### FileMaker 17 Sample (.fmp12)
 ![](assets/images/fmp_Inventory_Sample_Solution_17.png)
