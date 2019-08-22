@@ -15,31 +15,31 @@ Enjoy!
 
 ### FileMaker 11 (.fp7)
 
-![](http://newleafdata.com/images/fmp_Inventory_Starter_Solution_11.png)
+![](assets/images/fmp_Inventory_Starter_Solution_11.png)
 
 ### FileMaker 12 (.fmp12)
 
-![](http://newleafdata.com/images/fmp_Inventory_Starter_Solution_12.png)
+![](assets/images/fmp_Inventory_Starter_Solution_12.png)
 
 
 ### FileMaker 13 (.fmp12)
 
-![](http://newleafdata.com/images/fmp_Inventory_Starter_Solution_13.png)
+![](assets/images/fmp_Inventory_Starter_Solution_13.png)
 
 
 ### FileMaker 14 (.fmp12)
 
-![](http://newleafdata.com/images/fmp_Inventory_Starter_Solution_14.png)
+![](assets/images/fmp_Inventory_Starter_Solution_14.png)
 
 
 ### FileMaker 15 (.fmp12)
 
-![](http://newleafdata.com/images/fmp_Inventory_Starter_Solution_15.png)
+![](assets/images/fmp_Inventory_Starter_Solution_15.png)
 
 
 ### FileMaker 16 (.fmp12)
 
-![](http://newleafdata.com/images/fmp_Inventory_Starter_Solution_16.png)
+![](assets/images/fmp_Inventory_Starter_Solution_16.png)
 
 
 
