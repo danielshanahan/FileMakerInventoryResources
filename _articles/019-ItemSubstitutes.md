@@ -5,7 +5,7 @@ description: How and why to create a list of substitues for products.
 permalink: /Item-Substitutes.html
 created: Created 2017-06-13
 ---
-![Item Substitute in FileMaker Pro](http://newleafdata.com/images/fmp_ItemSubstitutes.png "Substitution Options for an Order Line Item")
+![Item Substitute in FileMaker Pro](assets/images/fmp_ItemSubstitutes.png "Substitution Options for an Order Line Item")
 
 There are a couple of reasons to track substitutes for inventory items:
 
@@ -31,7 +31,7 @@ On the other hand, if a customer is purchasing paper clips, they may not be look
 For this reason, it is more important to have item substitutions for your magnet items.  You certainly can also have substitutions for non-magnet items but the since the potential revenue lost is greater for a magnet item, that’s a good place to start.
 
 ## Substitute Table
-![Substitute Table in the Relationship Graph](http://newleafdata.com/images/fmp_ItemSubstituteRG.png "Substitute Table in the Relationship Graph")
+![Substitute Table in the Relationship Graph](assets/images/fmp_ItemSubstituteRG.png "Substitute Table in the Relationship Graph")
 
 Storing item substitutes is a very similar process to creating a [bill of materials (BOM)](http://filemakerinventoryresources.com/Bill-Of-Materials.html).  Like the BOM, the substitute table is a join table between an item self-join.  One way to express the data model is this:
 
