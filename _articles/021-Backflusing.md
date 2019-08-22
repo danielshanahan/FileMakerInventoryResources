@@ -6,7 +6,7 @@ permalink: /Backflushing.html
 created: Created 2017-08-07
 ---
 # Updating Inventory - Backflushing
-![Assembly Flow](http://newleafdata.com/images/Backflush_AssemblyFlow.png)
+![Assembly Flow](assets/images/Backflush_AssemblyFlow.png)
 
 In a previous article I wrote about various methods for [updating inventory quantities](http://filemakerinventoryresources.com/Updating-Inventory.html).  There is an accompanying demo file with six different methods for updating inventory quantities (to receive this and all the demo files, sign up on the Updates and Downloads form on the home page).  The thing these methods have in common is that inventory quantities are managed at every transaction.  That is, every time inventory is received, picked, used, assembled, shipped, etc., it is recorded.
 
