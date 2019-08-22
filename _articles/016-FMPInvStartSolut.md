@@ -66,4 +66,8 @@ The selector wizard has a nice interface, which shows the main detail view of th
 ### FileMaker 17 Starter (.fmp12)
 ![](assets/images/fmp_Inventory_Starter_Solution_17.png)
 
+### FileMaker 18 Sample (.fmp12)
+![](assets/images/fmp_Inventory_Sample_Solution_18.png)
 
+### FileMaker 18 Starter (.fmp12)
+![](assets/images/fmp_Inventory_Starter_Solution_18.png)
