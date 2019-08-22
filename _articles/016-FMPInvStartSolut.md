@@ -55,9 +55,10 @@ Frankly, I don't find this distinction helpful at all.  The sample file appears 
 The noticeable difference is that one seems to be designed for the desktop (Sample) and the other for the iPad (Starter).  There's also a slight difference in table and field names.
 
 The selector wizard has a nice interface, which shows the main detail view of the file.  In previous versions, if you wanted to look at the user interface (UI) you had to download the file and open it.
-![](assets/images/fmp_Inventory_Starter_Select)
 
-![](assets/images/fmp_Inventory_Sample_Select)
+![](assets/images/fmp_Inventory_Starter_Select.png)
+
+![](assets/images/fmp_Inventory_Sample_Select.png)
 
 ### FileMaker 17 Sample (.fmp12)
 ![](assets/images/fmp_Inventory_Sample_Solution_17.png)
