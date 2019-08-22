@@ -16,7 +16,7 @@ There are many businesses that require inventory management systems.  Though not
 
 These six types generally follow the [Inventory Process](http://filemakerinventoryresources.com/Inventory-Process.html) though the process might be slightly modified depending on the inventory type.
 
-![Inventory Types](.../assets/images/Inventory-Types.png)
+![Inventory Types](assets/images/Inventory-Types.png)
 
 <p class="citation">Icons from <a href="https://icons8.com">www.Icons8.com</a></p>
 
