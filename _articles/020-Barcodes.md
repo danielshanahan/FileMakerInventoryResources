@@ -5,7 +5,7 @@ description: Some thoughts about implementing barcodes into your FileMaker inven
 permalink: /Barcodes.html
 created: Created 2017-06-29
 ---
-![Barcode](http://newleafdata.com/images/FMIR_barcode.jpg)
+![Barcode](assets/images/FMIR_barcode.jpg)
 
 *Barcode image from [Morguefile.com](https://morguefile.com/search/morguefile/1/barcode/pop)*
 
