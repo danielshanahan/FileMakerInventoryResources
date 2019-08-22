@@ -50,7 +50,7 @@ Starting with version 17, FileMaker Inc. (FMI) made two inventory files availabl
 
 The distinction, according to FMI,is that the Sample apps show the possibilities of what can be done.  The presumption, then, is that the Starter is a file to base your project.
 
-Frankly, I don't find this distinction helpful at all.  The sample file appears to be the same as version 15 (not 16), with three tables: Inventory, Company Info, and Stock Transactions.  The Starter file only has two tables: Products and Inventory Transactions.  By contrast, my ![FM Inventory Starter file](https://www.fminventorystarter.com) has 40 tables (plus a table template, which I didn't count).
+Frankly, I don't find this distinction helpful at all.  The sample file appears to be the same as version 15 (not 16), with three tables: Inventory, Company Info, and Stock Transactions.  The Starter file only has two tables: Products and Inventory Transactions.  By contrast, my ![FM Inventory Starter file](https://www.fminventorystarter.com/) has 40 tables (plus a table template, which I didn't count).
 
 The noticeable difference is that one seems to be designed for the desktop (Sample) and the other for the iPad (Starter).  There's also a slight difference in table and field names.
 
