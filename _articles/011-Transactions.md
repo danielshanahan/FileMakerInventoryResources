@@ -5,6 +5,7 @@ title: Transactions
 description: Creating a life cycle for your inventory
 permalink: /Transactions.html
 created: Created 2017-03-11
+updated: Updated 2020-04-06
 ---
 Inventory goods that move in and out of an organization are often tracked in a transaction log table.  The movements are a kind of story.  The table records shows the lifecycle of inventory from the time it arrives until the time it leaves the organization.  Not all inventory is logged in a transaction table.  Service items and drop ship items are not logged.  Only goods that are received and shipped are logged.
 
